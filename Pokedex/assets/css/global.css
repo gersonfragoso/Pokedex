@@ -1,0 +1,37 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/wallpapersden.com_pokemon-hd-cool-art_3012x1918.jpg);
+}
+
+.content {
+    padding: 1rem;
+    background-color: #c0e0f5da;
+    border: 2px solid #457b9d;
+    margin: 5% auto; 
+    max-width: 70%; 
+}
+
+.content h1 {
+    margin: 0;
+}
+@media screen and (min-width: 356px) {
+    .content {
+        max-width: 95%
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .content {
+        max-width: 80%
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 70%;
+    }
+}
